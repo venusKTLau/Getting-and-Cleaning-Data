@@ -43,19 +43,19 @@ and unzip it, place it in the working directory,
 5. labels column in targetData will be replaced by the corresponding labels in the second column of activities 
 
 # Appropriately labels the data set with descriptive variable names.
- -second column of targetData is named as "activities"
- -tBody -> TimeBody
- -Acc -> Accelerometer
- -mean -> Mean
- -All start with "t" -> Time
- -Gyro -> Gyroscope
- -Mag -> Magnitude
- -All start with "f" -> Frequency
- -freq -> Frequency
- -std -> STD
- -angle -> Angle
- -gravity -> Gravitiy
- -BodyBody -> Body
+ - second column of targetData is named as "activities"
+ - tBody -> TimeBody
+ - Acc -> Accelerometer
+ - mean -> Mean
+ - All start with "t" -> Time
+ - Gyro -> Gyroscope
+ - Mag -> Magnitude
+ - All start with "f" -> Frequency
+ - freq -> Frequency
+ - std -> STD
+ - angle -> Angle
+ - gravity -> Gravitiy
+ - BodyBody -> Body
  
 # From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. (rows x columns)
 
