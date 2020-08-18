@@ -48,5 +48,5 @@ names(targetData)<- gsub("BodyBody", "Body", names(targetData))
 final <- targetData %>%
     group_by(subject, activities) %>%
     summarise_all(mean)
-write.table(final, "FinalTable.txt", row.names = FALSE)
+write.table(final, "FinalTable.txt", row.name = FALSE)
 
